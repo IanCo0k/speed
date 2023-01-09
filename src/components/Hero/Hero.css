@@ -11,6 +11,10 @@
     animation: fade-in 1s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
+.hero-container button:hover{
+    cursor: pointer;
+}
+
 .hide{
     opacity: 0;
 }

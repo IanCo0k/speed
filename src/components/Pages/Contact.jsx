@@ -15,9 +15,9 @@ export default function Contact() {
     <div className='container'>
         <Navbar></Navbar>
         <div className="contact-container">
-            <div className="banner" style={{backgroundImage: `url(${banner})`}}>
+            <div className="banner" style={{backgroundImage: `url(https://images.unsplash.com/photo-1584735935682-2f2b69dff9d2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1771&q=80)`}}>
                 <div className="banner-text">
-                    <h1>Contact</h1>
+                    <h1>Join Today</h1>
                 </div>
             </div>
             <div className="form">
