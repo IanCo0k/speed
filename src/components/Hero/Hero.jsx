@@ -12,8 +12,8 @@ export default function Hero() {
         <div className="full" style={{backgroundImage: `url(${bg})` }}>
             <div className="text top">
                 <h1 style={{fontWeight: 'bolder'}}>Westside Speed</h1>
-                <h4 style={{fontWeight: 'normal'}}>Train with the best to become the best.</h4>
-                <a href="/#/contact"><button>Join today</button></a>
+                <p style={{fontWeight: 'normal'}}>Train with the best</p>
+                <a href="/#/contact"><button>Join today!</button></a>
             </div>
         </div>
     </div>
