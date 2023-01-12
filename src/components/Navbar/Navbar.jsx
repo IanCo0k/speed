@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFootball, faContactCard, faPerson, faCalendar } from '@fortawesome/free-solid-svg-icons';
+import { faBars, faContactCard, faPerson, faCalendar } from '@fortawesome/free-solid-svg-icons';
 import logo from '../../assets/logo.png';
 import './Navbar.css';
 
@@ -24,7 +24,7 @@ export default function Navbar() {
                 <div className="element"><h1><a href="/#/schedule">Schedule</a></h1></div>
                 <div className="element"><h1><a href="/#/contact">Contact</a></h1></div>
 
-                <FontAwesomeIcon onClick={handleToggle} className={opened ? 'hamburger flip' : 'hamburger'} icon={faFootball} />
+                <FontAwesomeIcon onClick={handleToggle} className={opened ? 'hamburger flip' : 'hamburger'} icon={faBars} />
             </div>
         </div>
 
